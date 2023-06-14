@@ -17,6 +17,7 @@ char a[100];
 
   for(i=0;i<=1;i++){
 
+
     srand(time(NULL));
 
     a[i]=rand()%6+1;
