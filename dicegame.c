@@ -4,7 +4,13 @@
 #include <unistd.h>
 int main(){
   int a[2],s,i;
+char a[100];
 
+    printf("What is your name?\n");
+
+    scanf("%s",a);
+
+    printf("Hello,%s!\n",a);
   printf("Rolling dice...\n");
 
  
